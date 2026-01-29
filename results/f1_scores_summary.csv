@@ -1,0 +1,9 @@
+task,strategy,approach,model,f1_score
+Z1,baseline,fine-tuning,ixa-ehu/berteus-base-cased,74.76
+Z2,strategy_1,label_mapping,bert-base-uncased,33.81
+Z2,strategy_1,fine-tuning,bert-base-uncased,28.96
+Z2,strategy_2,label_mapping,ixa-ehu/berteus-base-cased,36.24
+Z2,strategy_2,fine-tuning,ixa-ehu/berteus-base-cased,32.06
+Z2,strategy_3,label_mapping,bert-base-multilingual-cased,31.61
+Z2,strategy_3,fine-tuning,bert-base-multilingual-cased,25.40
+Z3,prompting,few-shot,ClassCat/gpt2-small-basque-v2,9.36

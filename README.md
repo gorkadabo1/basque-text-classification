@@ -70,6 +70,8 @@ Use Basque GPT-2 (`ClassCat/gpt2-small-basque-v2`) with few-shot prompting. The 
 basque-text-classification/
 ├── README.md
 ├── requirements.txt
+├── docs/
+│   └── basque_text_classification_report.pdf
 ├── notebooks/
 │   ├── z1_berteus_baseline.ipynb      # Direct Basque classification
 │   ├── z2_strategy1_translate_test.ipynb
